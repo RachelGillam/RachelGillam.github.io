@@ -24,6 +24,9 @@
         
         border: 2px solid black;
     }
+    img {
+        width: 100%;
+    }
     ul {
         border: 2px solid black;
     }
