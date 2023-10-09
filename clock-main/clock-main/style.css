@@ -19,12 +19,12 @@ body {
   position: absolute;
   top: 48%; 
   left: 48%;
-  width: 81%;
+  height: 50%;
   animation-name: rotate;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  transform-origin: left;
+  transform-origin: top;
   transform: rotate(0deg);
 }
 
@@ -38,6 +38,12 @@ body {
   top: 48%; 
   left: 48%;
   width: 50%;
+  animation-name: rotate;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform-origin: left;
+  transform: rotate(0deg);
 }
 
 main {
