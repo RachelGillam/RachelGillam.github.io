@@ -144,15 +144,20 @@ container coding adapted from https://www.w3schools.com/howto/howto_css_image_te
         transform: translate(-50%, -50%);  
 }
 
-/* container div adapted from Medium */
-.container-deets-baa {
+/* container div adapted from w3schools */
+.flex-container-baa {
   display: flex;
-  background: rgb(126, 90, 56);
+  background-color: rgb(126, 90, 56);
+}
+
+.flex-container-baa > div {
+  margin: 10px;
+  padding: 20px;
   font-size: 14px;
   text-align: center;
-  padding-inline: 20px;  
 }
-/* end container div adaptation from Medium */
+/* end container div adaptation from w3schools 
+but how do I get the hover info?? */
 
 /*multiple attempts via w3school and chatgpt - cannot get the links to group to left and reveal text on right*/
 .overlay-b {
