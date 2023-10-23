@@ -112,6 +112,17 @@ nav li a:hover {
 .flexbox div {
   flex:1;
 }
+.overlay {
+  position:absolute;
+  min-height:35%;
+  bottom:0;
+  left:0;
+  right:0;
+  width:100%;
+  background-color: rgba(255, 255, 255, .6);
+  text-align:center;
+} 
+
 /*
 set image and title as container
 container coding adapted from https://www.w3schools.com/howto/howto_css_image_text.asp 
@@ -132,16 +143,18 @@ container coding adapted from https://www.w3schools.com/howto/howto_css_image_te
         left: 50%;
         transform: translate(-50%, -50%);  
 }
-.overlay {
-  position:absolute;
-  min-height:35%;
-  bottom:0;
-  left:0;
-  right:0;
-  width:100%;
-  background-color: rgba(255, 255, 255, .6);
-  text-align:center;
+
+/* container div adapted from Medium */
+.container-deets-baa {
+  display: flex;
+  background: rgb(126, 90, 56);
+  font-size: 14px;
+  text-align: center;
+  padding-inline: 20px;  
 }
+/* end container div adaptation from Medium */
+
+/*multiple attempts via w3school and chatgpt - cannot get the links to group to left and reveal text on right*/
 .overlay-b {
     position:absolute;
     min-height: 15%;
@@ -154,7 +167,6 @@ container coding adapted from https://www.w3schools.com/howto/howto_css_image_te
     text-align: center;
   }
 
-/*multiple attempts via w3school and chatgpt - cannot get the links to group to left and reveal text on right*/
   .overlay-b .horizontal-list {
     display: flex;
     justify-content: space-between;
