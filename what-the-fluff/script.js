@@ -1,0 +1,27 @@
+$('.item1').hover(
+  function(){
+    $('.item1-text').removeClass('hide');
+    $('.item2-text').addClass('hide');
+    $('.item3-text').addClass('hide');
+    $('.item4-text').addClass('hide');
+    $('.item5-text').addClass('hide');
+  }
+)
+$('.item2').hover(
+  function(){
+    $('.item2-text').removeClass('hide');
+    $('.item1-text').addClass('hide');
+    $('.item3-text').addClass('hide');
+    $('.item4-text').addClass('hide');
+    $('.item5-text').addClass('hide');
+  }
+)
+$('.item3').hover(
+  function(){
+    $('.item1-text').addClass('hide');
+    $('.item2-text').addClass('hide');
+    $('.item3-text').removeClass('hide');
+    $('.item4-text').addClass('hide');
+    $('.item5-text').addClass('hide');
+  }
+)
