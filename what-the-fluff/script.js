@@ -18,10 +18,28 @@ $('.item2').hover(
 )
 $('.item3').hover(
   function(){
+    $('.item3-text').removeClass('hide');
     $('.item1-text').addClass('hide');
     $('.item2-text').addClass('hide');
-    $('.item3-text').removeClass('hide');
     $('.item4-text').addClass('hide');
     $('.item5-text').addClass('hide');
+  }
+)  
+$('.item4').hover(
+  function(){
+    $('.item4-text').removeClass('hide');
+    $('.item1-text').addClass('hide');
+    $('.item2-text').addClass('hide');
+    $('.item3-text').addClass('hide');
+    $('.item5-text').addClass('hide');
+  }
+)
+$('.item5').hover(
+  function(){
+    $('.item5-text').removeClass('hide');
+    $('.item1-text').addClass('hide');
+    $('.item2-text').addClass('hide');
+    $('.item3-text').addClass('hide');
+    $('.item4-text').addClass('hide');
   }
 )

@@ -180,10 +180,16 @@ but how do I get the hover info?? */
     text-align: center;
   }
   .moopage .overlay-b {
-    background-color: rgba(145, 85, 61);
+    background-color: #91553d;
   }
   .meowpage .overlay-b {
     background-color: #6E6C55;
+  }
+  .baapage .overlay-b {
+    background-color: #7e5a38;
+  }
+  .woofpage .overlay-b {
+    background-color: #89969e;
   }
 
   .overlay-b .horizontal-list {

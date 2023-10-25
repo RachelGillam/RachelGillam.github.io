@@ -6,7 +6,8 @@
   <title>What The Fluff</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="subpage">
+<body class="subpage baapage">
+  <div class="wrapper">
   <header class="border">
     <div class="logo">
       <a href="index.html"><img class="logo-img" src="images/what-the-fluff-logo.png" alt="what-the-fluff-logo"> <span>What the Fluff!</span></a>
@@ -16,11 +17,10 @@
         <li><a href="moo.html">moo!</a></li>
         <li><a href="woof.html">woof!</a></li>
         <li><a href="meow.html">meow!</a></li>
-        <li><a href="baa.html">baa!</a></li>
+        <li><a href="baa.html"><img class="nav-icon" src="images/baa-icon.png"></a></li>
       </ul>
     </nav>
   </header>
-  
 <section class="flexbox">
   <div class="container">
     <img src="images/valais-blacknose-sheep.png" alt="valais-blacknose-sheep" style="width:100%;">
@@ -28,13 +28,34 @@
   </div>
 </section>
 
-<div class="flex-container-baa">
-  <div>Cuddly<br>Cotton Balls</div>
-  <div>Ewe-nique<br>Looks</div>
-  <div>Furry<br>Bumblebees</div>  
-  <div>Woolly<br>Clouds</div>
-  <div>Nature's<br>Lawnmowers</div>
+  <div class="container-deets">
+    <div> 1 </div>
+    <div> 2 </div>
+    <div> 3 </div>
+    <div> 4 </div>
+  </div>
+  
+  <div class="overlay-b">
+      <ul class="horizontal-list">
+          <li class="item1"><a href="#">Cuddly Cotton Balls</a></li>
+          <li class="item2"><a href="#">Ewe-nique Looks</a></li>
+          <li class="item3"><a href="#">Furry Bumblebees</a></li>
+          <li class="item4"><a href="#">Woolly Clouds</a></li>
+          <li class="item5"><a href="#">Nature's Lawnmowers</a></li>
+          <li class="details">
+            <p class="item1-text hide">One Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, pariatur!</p>
+            <p class="item2-text hide">Two Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, pariatur!</p>
+            <p class="item3-text hide">Three Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, pariatur!</p>
+            <p class="item4-text hide">Four Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, pariatur!</p>
+            <p class="item5-text hide">Five Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, pariatur!</p>
+          </li>
+      </ul>
+  </div>
+
+  <!-- end of wrapper div -->
 </div>
 
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html> 
