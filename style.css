@@ -1,22 +1,24 @@
 /* 
-Worked from Alanna's code on Sprucing Up assignment
+Working from Alanna's code on Sprucing Up assignment + Responsive Page
 
 font-family: 'Playfair Display', serif;
 font-family: 'Source Sans 3', sans-serif;
  */
 
  /* COLORS
---sinopia: #C0441Dff;
---licorice: #130906ff;
---pale-dogwood: #EEC0B2ff;
---cinnabar: #DE5D3Dff;
---black: #090706ff;
+HEX
+--gunmetal: #26333Aff;
+--ash-gray: #C1C5ACff;
+--hookers-green: #61766Aff;
+--rose-ebony: #584145ff;
+--snow: #FEF7F5ff;
 
-sinopia: rgba(192, 68, 29, 1);
-licorice: rgba(19, 9, 6, 1);
-pale-dogwood: rgba(238, 192, 178, 1);
-cinnabar: rgba(222, 93, 61, 1);
-black: rgba(9, 7, 6, 1); 
+RGB
+gunmetal: rgba(38, 51, 58, 1);
+ash-gray: rgba(193, 197, 172, 1);
+hookers-green: rgba(97, 118, 106, 1);
+rose-ebony: rgba(88, 65, 69, 1);
+snow: rgba(254, 247, 245, 1);
 */
 
 * {
@@ -28,35 +30,43 @@ black: rgba(9, 7, 6, 1);
   }
   body {
     margin:0;
-    background-image: url('images/pinball.jpg');
+    background-image: url('images/forest.jpg');
     background-repeat:no-repeat;
     background-size:cover;
     font-family: 'Source Sans 3', sans-serif;
     font-size: 20px;
     
   }
+  /* Photo by Jaymantri: https://www.pexels.com/photo/nature-forest-trees-fog-4827/ */
+ 
   .content {
     padding:60px;
     width:80%;
     min-height:80vh;
     margin: 80px auto;
-    background-color: rgba(238, 192, 178, .8);
+    background-color: rgba(193, 197, 172, 1);
     border-radius: 20px;
   }
   a {
-    color: #C0441Dff;
+    color: #584145ff;
   }
   a:hover {
-    color: rgb(135, 31, 191);
+    color: rgba(193, 197, 172, 1);
   }
-      /* Photo by cottonbro studio: https://www.pexels.com/photo/red-and-black-vinyl-record-4836517/ */
-  
+
   h1 {
-    color:#333;
+    color:#26333Aff;
     font-size: 60px;
   }
   
-  h1, h2, h3 {
+  h1, h3 {
+    margin-top:0;
+    font-family: 'Playfair Display', serif;
+    color: 26333Aff;
+}
+
+h2 {
+    color: 61766Aff;
     margin-top:0;
     font-family: 'Playfair Display', serif;
 }
@@ -66,7 +76,7 @@ black: rgba(9, 7, 6, 1);
   
   ul li::before {
     content: "\2022";
-    color: #C0441Dff;
+    color: #584145ff;
     font-weight: bold;
     display: inline-block; 
     width: 1em;
@@ -78,7 +88,7 @@ black: rgba(9, 7, 6, 1);
   }
   .card {
     flex:33.3%;
-    background-color:white;
+    background-color:rgba(38, 51, 58, 25%);
     font-family: 'Source Sans 3', sans-serif;
     margin-right:20px;
     padding:16px;
@@ -95,13 +105,13 @@ black: rgba(9, 7, 6, 1);
   
   .button {
     display: inline-block;
-    background-color: #C0441Dff;
-    color: white;
+    background-color: #26333Aff; 
+    color: rgba(254, 247, 245, 1);
     text-decoration:none;
     padding: 8px 12px;
   }
   .button:hover {
-    background-color: #130906ff;
+    background-color: #61766Aff;
   }
   .resources {
     margin-top:80px;
@@ -109,7 +119,7 @@ black: rgba(9, 7, 6, 1);
   }
   .resources div {
     flex:1;
-    background-color:white;
+    background-color:rgba(254, 247, 245, 1);;
     border-radius:20px;
     padding:20px;
     margin-right:20px;
