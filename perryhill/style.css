@@ -54,7 +54,7 @@ nav li {
   text-decoration: none;
 }
 
-.button-solid:hover{
+.button-solid:hover {
   border-color: 1px #CA6907;
   background-color: #DEA56E;
   color: white;
@@ -69,7 +69,7 @@ nav li {
 
 }
 
-.button-outline:hover{
+.button-outline:hover {
   background-color: #DEA56E;
   color: white;
 }
