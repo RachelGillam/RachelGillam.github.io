@@ -47,6 +47,55 @@ header {
   background-size:cover;
   background-repeat: no-repeat;
   height:500px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.hero-tall{
+  height:700px;
+  text-align: left;
+
+}
+
+.hero-tall div{
+  width: 40%; 
+}
+
+.hero-short{
+  height:500px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.hero-short div{
+ text-align: center;
+}
+
+.hero-about{
+  background-image: url("images/apples-02.jpg");
+
+}
+
+.hero-newletters{
+  background-image: url(http://placekitten.com/1440/500);
+
+}
+
+.hero-produce{
+  background-image: url(http://placekitten.com/1440/500);
+
+}
+
+.hero-faq{
+  background-image: url(http://placekitten.com/1440/500);
+
+}
+
+.hero-index{
+  background-image: url(http://placekitten.com/1440/500);
+
 }
 
 section {
