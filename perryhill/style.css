@@ -108,3 +108,12 @@ footer a {
     padding: 20px;
   }
 }
+
+section ul{
+  margin-top: 10px;
+}
+
+section li {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
