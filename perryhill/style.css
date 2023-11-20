@@ -40,6 +40,29 @@ nav li {
   margin-right: 20px;
 }
 
+.button-solid {
+  display: inline-block;
+  background-color: orange;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px; 
+  text-decoration: none;
+}
+
+.button-outline {
+  border: 1px solid orange;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 5px;
+
+
+}
+
+.button-outline:hover{
+  background-color: orange;
+  color: white;
+}
+
 header {
   text-align: center;
   padding: 50px;
