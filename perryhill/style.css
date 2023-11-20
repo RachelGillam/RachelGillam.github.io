@@ -46,24 +46,31 @@ nav li {
 
 .button-solid {
   display: inline-block;
-  background-color: orange;
+  background-color: #CA6907;
+  border: 1px solid #CA6907;
   color: white;
   padding: 8px 16px;
   border-radius: 5px; 
   text-decoration: none;
 }
 
+.button-solid:hover{
+  border-color: 1px #CA6907;
+  background-color: #DEA56E;
+  color: white;
+}
+
 .button-outline {
-  border: 1px solid orange;
+  border: 1px solid #CA6907;
   display: inline-block;
   padding: 8px 16px;
   border-radius: 5px;
-  color: orange;
+  color: #DEA56E;
 
 }
 
 .button-outline:hover{
-  background-color: orange;
+  background-color: #DEA56E;
   color: white;
 }
 
