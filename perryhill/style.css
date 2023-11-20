@@ -8,6 +8,10 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
+/* need to add typography palette */
+/* need to add color palette */
+/* need to add page specific palettes */
+
 
 nav, footer {
   background-color: #5E6D33; /* Green background color */
@@ -54,7 +58,7 @@ nav li {
   display: inline-block;
   padding: 8px 16px;
   border-radius: 5px;
-
+  color: orange;
 
 }
 
@@ -135,6 +139,7 @@ section {
 .two-column div {
   flex: 1;
   padding: 20px;
+  text-align: left;
 }
 
 .two-column-color {
