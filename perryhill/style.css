@@ -10,7 +10,7 @@ body {
 }
 
 nav, footer {
-  background-color: #00cc66; /* Green background color */
+  background-color: #5E6D33; /* Green background color */
   padding: 10px;
 }
 
@@ -20,8 +20,13 @@ nav {
   align-items: center;
 }
 
+nav a {
+  color: white;
+
+}
+
 nav img {
-  height: 40px; /* Adjust the height of your logo */
+  width: auto; /* Adjust the height of your logo */
 }
 
 nav ul {
@@ -60,12 +65,28 @@ section {
   padding: 20px;
 }
 
+.two-column-color {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #DEA56E;
+}
+
+.two-column-color div {
+  flex: 1;
+  padding: 20px;
+}
+
 footer ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: space-around;
+}
+
+footer a {
+  color: white;
 }
 
 @media (max-width: 768px) {
