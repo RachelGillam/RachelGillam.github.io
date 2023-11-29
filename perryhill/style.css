@@ -114,6 +114,7 @@ p.body4 {
 nav, footer {
   background-color: #5E6D33; /* Green background color */
   padding: 10px;
+  
 }
 
 nav {
@@ -121,6 +122,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   font-family: 'montserrat', sans-serif;
+  font-size: 8px;
+
 }
 
 nav a {
@@ -271,6 +274,7 @@ footer ul {
 
 footer a {
   color: white;
+  font-size: 8px;
 }
 
 @media (max-width: 768px) {
