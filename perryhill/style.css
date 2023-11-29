@@ -1,4 +1,8 @@
-* {
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;600;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+* 
+{
   box-sizing: border-box;
 }
 img {
@@ -6,12 +10,24 @@ img {
 }
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'montserrat', sans-serif;
+
+
 }
 /* need to add typography palette */
 /* need to add color palette */
 /* need to add page specific palettes */
+h1 {
+  font-family: 'cormorant', serif;
+  font-weight: bold;
+  font-size: 80px;
+}
 
+h2 {
+  font-family: 'cormorant', serif;
+  font-weight: bold;
+  font-size: 48px;
+}
 
 nav, footer {
   background-color: #5E6D33; /* Green background color */
@@ -22,6 +38,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: 'montserrat', sans-serif;
 }
 
 nav a {
@@ -201,4 +218,17 @@ section ul{
 section li {
   margin-right: 0;
   margin-bottom: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery img {
+  width: 30%;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
