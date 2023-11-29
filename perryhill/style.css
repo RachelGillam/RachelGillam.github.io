@@ -8,12 +8,6 @@
 img {
   width:100%;
 }
-body {
-  margin: 0;
-  font-family: 'montserrat', sans-serif;
-
-
-}
 
 /* need to add page specific palettes */
 
@@ -44,6 +38,7 @@ h5 {
 }
 
 body {
+  margin: 0;
   font-size: 18pt;
   font-family: 'Montserrat Regular', sans-serif;
 }
