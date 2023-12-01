@@ -1,12 +1,8 @@
 * 
-<link rel="preconnect" href="https://fonts.googleapis.com">  
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;600;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  {@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;600;700&family=Montserrat:wght@400;500;700&display=swap');
+  }
 
-{
-  box-sizing: border-box;
 
-}
 
 img {
   width:100%;
@@ -213,7 +209,7 @@ header {
 
 }
 
-.hero-newletters{
+.hero-newsletters{
   background-image: url("images/peaches-02.jpg");
 
 }
@@ -223,7 +219,7 @@ header {
 
 }
 
-.hero-faq{
+.hero-faqs{
   background-image: url("images/apples-01.jpg");
 
 }
